@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background: lightblue;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.img-futurama {
+  max-width: 150px;
+}
+
+.character-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+.character-list img {
+  max-width: 100%;
+}
